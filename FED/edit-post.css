@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background color */
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff; /* White background for form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow for depth */
+  }
+  
+  label {
+    font-weight: bold;
+    color: #555; /* Darker label text color */
+  }
+  
+  input[type="text"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border don't increase element width */
+  }
+  
+  textarea {
+    height: 150px; /* Adjust textarea height as needed */
+  }
+  
+  select {
+    appearance: none; /* Remove default appearance (e.g., dropdown arrow) */
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  br {
+    line-height: 2; /* Adjust vertical spacing between elements */
+  }
+  
